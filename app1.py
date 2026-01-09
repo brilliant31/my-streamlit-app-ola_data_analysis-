@@ -226,10 +226,10 @@ with tab3:
     power_bi_url = (
        "https://app.powerbi.com/reportEmbed?reportId=7cb17d2b-0ac8-4fa9-bc95-64ea4a9af888&autoAuth=true&ctid=7a34b5dd-01f5-4e32-984a-c4d852a0663d"
     )
-
+    width = st.columns(1)[0].width
     st.components.v1.iframe(
         src=power_bi_url,
-        height=400,
-        width=800,
+        height=500,
+        width=int(width),
         scrolling=True
     )
