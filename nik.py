@@ -105,7 +105,7 @@ with tab1:
     col1.metric("Total Rides", f"{total_rides:,}")
     col2.metric("Completed Rides", f"{completed_rides:,}")
     col3.metric("Completion Rate %", f"{completion_rate}%")
-    col4.metric("Total Revenue", f"₹ {revenue/1e6:.2f} M")
+    col4.metric("Total Revenue", f"₹ {revenue / Decimal('1000000'):.2f} M")
 
     st.markdown("---")
     st.subheader("📄 Data Overview")
