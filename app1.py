@@ -94,7 +94,7 @@ with tab1:
     completion_rate = round((completed_rides / total_rides) * 100, 2)
 
     revenue = get_data(
-        "SELECT SUM(booking_value) AS revenue FROM rides"
+        "SELECT SUM(booking_value) AS revenue FROM rides where booking_status='Success'"
     )['revenue'][0] or 0
 
     col1, col2, col3, col4 = st.columns(4)
