@@ -69,11 +69,10 @@ df = df[
 
 
 
-tab1, tab2, tab3, tab4 = st.tabs([
+tab1, tab2, tab3 = st.tabs([
     "📊 Overview",
     "📈 SQL Insights",
-    "📊 Power BI Dashboard",
-    "ℹ️ About"
+    "📊 Power BI Dashboard"
 ])
 with tab1:
     st.title("🚖 OLA Ride Insights")
