@@ -230,6 +230,6 @@ with tab3:
     st.components.v1.iframe(
         src=power_bi_url,
         height=500,
-        width=600,
+        width=850,
         scrolling=True
     )
