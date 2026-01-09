@@ -2,3 +2,4 @@ streamlit==1.26.0
 pandas==2.0.3
 plotly==5.20.0
 mysql-connector-python==8.0.33
+pillow==10.0.1
