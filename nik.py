@@ -2,7 +2,7 @@ import streamlit as st
 import mysql.connector
 import plotly.express as px
 from datetime import date
-
+from decimal import Decimal
 st.set_page_config(
     page_title="OLA Ride Insights",
     layout="wide",
